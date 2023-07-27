@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
-from utils.epipolar_geometry import epipoles
-from utils.visualization_utils import plot_features
+from epipolar_geometry import epipoles
+from visualization_utils import plot_features
 
 def essential_matrix(K, F, args):
     #estimate KT@F@K
